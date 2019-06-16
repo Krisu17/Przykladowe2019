@@ -52,7 +52,7 @@ public class Obecni implements Iterable<Osoba> {
         StringBuilder wynik = new StringBuilder();
         Iterator<Osoba> iterator = this.iterator();
         while(iterator.hasNext()) {
-            wynik.append(iterator.next().toString());
+            wynik.append(iterator.next().toString()).append(" ");
         }
         return wynik.toString();
     }

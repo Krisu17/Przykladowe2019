@@ -11,4 +11,5 @@ package PrzykladowePytania;
  */
 public interface FiguraStan {
     public double obwod(double wielkosc);
+    
 }
